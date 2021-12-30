@@ -47,14 +47,14 @@ module.exports = {
 
   author: {
     // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, link: String}
-    name: 'xugaoyi', // 必需
+    name: 'zhuangweixin', // 必需
     link: 'https://github.com/xugaoyi', // 可选的
   },
   blogger: {
     // 博主信息，显示在首页侧边栏
-    avatar: 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
-    name: 'Evan Xu',
-    slogan: '前端界的小学生',
+    avatar: 'https://user.csdnimg.cn/9fa7bdd8b3654e1688e03a22a01b9722_zhuang_weixin.jpg',
+    name: 'Zen',
+    slogan: 'XXXXX',
   },
   social: {
     // 社交图标，显示于博主信息栏和页脚栏
@@ -63,12 +63,12 @@ module.exports = {
       {
         iconClass: 'icon-youjian',
         title: '发邮件',
-        link: 'mailto:894072666@qq.com',
+        link: 'mailto:995245717@qq.com',
       },
       {
         iconClass: 'icon-github',
         title: 'GitHub',
-        link: 'https://github.com/xugaoyi',
+        link: 'https://github.com/zhuangweixin',
       },
       {
         iconClass: 'icon-erji',
