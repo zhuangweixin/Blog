@@ -26,7 +26,11 @@ module.exports = {
           repo: 'Blog',
           owner: 'zhuangweixin',
           admin: ['zhuangweixin'],
-          distractionFreeMode: false
+          distractionFreeMode: false,
+          id: "<%- (window.location.origin + (frontmatter.to.path || window.location.pathname)).slice(-50) %>", //  页面的唯一标识,长度不能超过50
+          title: "「评论」<%- document.title %>", // GitHub issue 的标题
+          labels: ["Gitalk", "Comment"], // GitHub issue 的标签
+          body:"<%- document.title %>：<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>" // GitHub issue 的内容
         }
       }
     ]
