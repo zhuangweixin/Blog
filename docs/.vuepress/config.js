@@ -6,7 +6,7 @@ module.exports = {
   theme: 'vdoing', // 使用npm包主题
   // theme: require.resolve('../../theme-vdoing'), // 使用本地主题
 
-  title: "ZWX's blog",
+  title: "Zen's blog",
   description: 'web前端技术博客,简洁至上,专注web前端学习与总结。JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github等技术文章。',
   base: '/Blog/', // 格式：'/<仓库名>/'， 默认'/'
   markdown: {
@@ -14,6 +14,22 @@ module.exports = {
   },
 
   head,
-  plugins,
   themeConfig,
+  plugins: [
+    [
+      'vuepress-plugin-comment',
+      {
+        choosen: 'gitalk',
+        options: {
+          clientID: 'bda80458594c5828c803',
+          clientSecret: '1d3847fd9d68f44922312d7b5529cc98964851eb',
+          repo: 'Blog',
+          owner: 'zhuangweixin',
+          admin: ['zhuangweixin'],
+          distractionFreeMode: false
+        }
+      }
+    ]
+  ]
+
 }
