@@ -52,9 +52,9 @@ module.exports = {
   },
   blogger: {
     // 博主信息，显示在首页侧边栏
-    avatar: 'https://user.csdnimg.cn/9fa7bdd8b3654e1688e03a22a01b9722_zhuang_weixin.jpg',
+    avatar: 'https://avatars.githubusercontent.com/u/67888115?s=400&u=3c698799bb4be34b847bae0d11e0c3363d852440&v=4',
     name: 'Zen',
-    slogan: 'XXXXX',
+    slogan: 'cv编程',
   },
   social: {
     // 社交图标，显示于博主信息栏和页脚栏
