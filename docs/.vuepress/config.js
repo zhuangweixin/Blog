@@ -8,7 +8,7 @@ module.exports = {
 
   title: "Zen's blog",
   description: 'XXXXX',
-  base: '/Blog/', // 格式：'/<仓库名>/'， 默认'/'
+  base: '/Blog/', // 格式：'/<1仓库名>/'， 默认'/'
   markdown: {
     lineNumbers: true, // 代码行号
   },
