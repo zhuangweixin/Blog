@@ -33,7 +33,8 @@ module.exports = {
           body:"<%- document.title %>：<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>" // GitHub issue 的内容
         }
       }
-    ]
+    ],
+		['dynamic-title']
   ]
 
 }
