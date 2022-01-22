@@ -105,13 +105,16 @@
             >{{ item + ' ' }}</router-link
           >
         </div>
+				<PagesView style="margin-left: 0" />
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import PagesView from './PagesView.vue';
 export default {
+	components: {PagesView},
   data () {
     return {
       articleInfo: {}

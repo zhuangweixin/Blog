@@ -19,4 +19,7 @@ module.exports = [
       src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
     },
   ], // 网站关联Google AdSense 与 html格式广告支持
+	['meta', { name: 'referrer', content: 'no-referrer-when-downgrade' }],
+	['link', { rel: 'stylesheet', href: 'https://at.alicdn.com/t/font_3077305_pt8umhrn4k9.css' }]
+
 ]
