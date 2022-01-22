@@ -34,14 +34,14 @@ module.exports = {
         }
       }
     ],
-		[
-			 'cursor-effects',
-			 {
-					size: 2, // size of the particle, default: 2
-					shape: ['circle'], // shape of the particle, default: 'star'
-					zIndex: 999999999, // z-index property of the canvas, default: 999999999
-			 },
-		],
+		// [
+		// 	 'cursor-effects',
+		// 	 {
+		// 			size: 2, // size of the particle, default: 2
+		// 			shape: ['circle'], // shape of the particle, default: 'star'
+		// 			zIndex: 999999999, // z-index property of the canvas, default: 999999999
+		// 	 },
+		// ],
   ]
 
 }
