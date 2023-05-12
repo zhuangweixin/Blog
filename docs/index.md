@@ -1,7 +1,8 @@
 ---
 home: true
 # heroImage: /img/web.png
-heroText: Zen's blog
+#大屏标题
+heroText: Zwx's blog
 tagline: xxx
 # actionText: 立刻进入 →
 # actionLink: /web/

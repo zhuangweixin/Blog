@@ -7,7 +7,7 @@ const { readFileList, readTotalFileWords, readEachFileWords } = require('../webS
 module.exports = {
   nav,
   sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
-  logo: '/img/logo.jpg', // 导航栏logo
+  logo: 'https://avatars.githubusercontent.com/u/67888115?s=400&u=3c698799bb4be34b847bae0d11e0c3363d852440&v=4', // 导航栏logo
   // repo: 'xugaoyi/vuepress-theme-vdoing', // 导航栏右侧生成Github链接
   searchMaxSuggestions: 10, // 搜索结果显示最大数
   lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
@@ -38,7 +38,7 @@ module.exports = {
 	  bgTimeColor: true,     // 是否开启图片的背景色随一天的不同时间而变化，并且开启时间窗口提示，默认是 false。时间分为四种：白天（原图）、黄昏（偏黄）、晚上（偏黑）、深夜（偏深黑）
 	  bgTimeColorArray: ['transparent', 'transparent', 'transparent', 'transparent'],   // 第一个是白天的颜色（默认原图），第二个是黄昏的颜色，第三个是晚上的颜色，第四个是深夜的颜色。bgTimeColor 为 true 生效
 	  descFadeIn: true,   // 是否开启图片中间描述的淡入效果，默认为 false
-	  desc: ["吃吃喝喝 —— 来自 Zen"],  // 多个描述，如果填写则覆盖 config.js 的 description，不填写默认读取 config.js 的 description，descFadeIn 为 true 生效
+	  desc: ["haha —— 来自 Zwx"],  // 多个描述，如果填写则覆盖 config.js 的 description，不填写默认读取 config.js 的 description，descFadeIn 为 true 生效
 	  descFontSize: '1.4rem',   // desc 的字体大小，默认 1.4rem。提示：原主题是 1.1rem
 	  descFadeInTime: 200,  // 描述的淡入效果持续时间，descFadeIn 为 true 生效，默认 200 毫秒
 	  descFadeOutTime: 100,  // 描述的淡出效果持续时间，descFadeIn 为 true 生效，默认 100 毫秒
@@ -90,7 +90,7 @@ module.exports = {
   blogger: {
     // 博主信息，显示在首页侧边栏
     avatar: 'https://avatars.githubusercontent.com/u/67888115?s=400&u=3c698799bb4be34b847bae0d11e0c3363d852440&v=4',
-    name: 'Zen',
+    name: 'Zwx',
     slogan: 'cv编程',
   },
   social: {
