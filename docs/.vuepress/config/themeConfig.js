@@ -38,10 +38,10 @@ module.exports = {
 	  bgTimeColor: true,     // 是否开启图片的背景色随一天的不同时间而变化，并且开启时间窗口提示，默认是 false。时间分为四种：白天（原图）、黄昏（偏黄）、晚上（偏黑）、深夜（偏深黑）
 	  bgTimeColorArray: ['transparent', 'transparent', 'transparent', 'transparent'],   // 第一个是白天的颜色（默认原图），第二个是黄昏的颜色，第三个是晚上的颜色，第四个是深夜的颜色。bgTimeColor 为 true 生效
 	  descFadeIn: true,   // 是否开启图片中间描述的淡入效果，默认为 false
-	  desc: ["haha —— 来自 Zwx"],  // 多个描述，如果填写则覆盖 config.js 的 description，不填写默认读取 config.js 的 description，descFadeIn 为 true 生效
+	  desc: ["Aal izz well 一切顺利 —— 来自 Zwx"],  // 多个描述，如果填写则覆盖 config.js 的 description，不填写默认读取 config.js 的 description，descFadeIn 为 true 生效
 	  descFontSize: '1.4rem',   // desc 的字体大小，默认 1.4rem。提示：原主题是 1.1rem
-	  descFadeInTime: 200,  // 描述的淡入效果持续时间，descFadeIn 为 true 生效，默认 200 毫秒
-	  descFadeOutTime: 100,  // 描述的淡出效果持续时间，descFadeIn 为 true 生效，默认 100 毫秒
+	  descFadeInTime: 150,  // 描述的淡入效果持续时间，descFadeIn 为 true 生效，默认 200 毫秒
+	  descFadeOutTime: 75,  // 描述的淡出效果持续时间，descFadeIn 为 true 生效，默认 100 毫秒
 	  descNextTime: 800,  // 当有多个 desc 时，一个 desc 展示完后或准备开始时，多少秒后出现下一个 desc，默认 800 毫秒
 	  bubble: true,    // 是否开启图片的气泡效果，默认为 false
 	  bubblePosition: 0,  // 气泡效果的位置，范围：0-100，不同数值代表不同的起始位置，0是整个图片，50是半张图（一半的下方）。bubble 为 true 生效。默认是 0
@@ -84,14 +84,14 @@ module.exports = {
 
   author: {
     // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, link: String}
-    name: 'zhuangweixin', // 必需
+    name: 'Zwx', // 必需
     link: 'https://github.com/zhuangweixin', // 可选的
   },
   blogger: {
     // 博主信息，显示在首页侧边栏
     avatar: 'https://avatars.githubusercontent.com/u/67888115?s=400&u=3c698799bb4be34b847bae0d11e0c3363d852440&v=4',
     name: 'Zwx',
-    slogan: 'cv编程',
+    slogan: 'Aal izz well 一切顺利',
   },
   social: {
     // 社交图标，显示于博主信息栏和页脚栏

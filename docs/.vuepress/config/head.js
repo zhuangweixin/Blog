@@ -7,7 +7,7 @@ module.exports = [
     'meta',
     {
       name: 'keywords',
-      content: 'cv编程',
+      content: 'Aal izz well 一切顺利',
     },
   ],
   ['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }], // 百度统计的站长验证
