@@ -69,7 +69,7 @@ pageClass: vdoing-index-class
 ## :email: 联系
 
 - **WeChat or QQ**: <a href="tencent://message/?uin=995245717&Site=&Menu=yesUrl" class='qq'>995245717</a>
-- **Email**: <a href="mailto:995245717@qq.com">995245717@qq.com</a>
+- **Email**: <a href="mailto:zwx_02020321@163.com">zwx_02020321@163.com</a>
 - **GitHub**: <https://zhuangweixin.github.io/Blog/>
 
 </br>  -->
