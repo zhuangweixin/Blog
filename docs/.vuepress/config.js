@@ -22,8 +22,8 @@ module.exports = {
       {
         choosen: 'gitalk',
         options: {
-          clientID: '1c5e6d54f6e6d1951627',
-          clientSecret: '4f472d489922395b3078ab618d9d168438b257bd',
+          clientID: '3692199e12438d37d505',
+          clientSecret: '22931f963ce1592048c844216eb1e3b1e1c9b6bc',
           repo: 'Blog',
           owner: 'Zwx',
           admin: ['Zwx'],
