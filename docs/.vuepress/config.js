@@ -25,8 +25,8 @@ module.exports = {
           clientID: '3692199e12438d37d505',
           clientSecret: '22931f963ce1592048c844216eb1e3b1e1c9b6bc',
           repo: 'Blog',
-          owner: 'Zwx',
-          admin: ['Zwx'],
+          owner: 'zhuangweixin',
+          admin: ['zhuangweixin'],
           distractionFreeMode: false,
           id: "<%- (window.location.origin + (frontmatter.to.path || window.location.pathname)).slice(-50) %>", //  页面的唯一标识,长度不能超过50
           title: "「评论」<%- document.title %>", // GitHub issue 的标题
