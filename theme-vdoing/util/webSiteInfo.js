@@ -1,8 +1,18 @@
 // 日期格式化(只获取年月日)
 export function dateFormat(date) {
   if (!(date instanceof Date)) {
-    date = new Date(date);
+    //防止苹果设备出现NAN
+    date = new Date(date.replace(/-/g, '/'));
   }
+
+  //防止苹果设备出现NAN
+  // if (/macintosh|mac os x｜iPad|iPhone|iPod/i.test(navigator.userAgent)) {
+  //   console.log('1');
+  //   return `${date.getUTCFullYear()}/${zero(date.getUTCMonth() + 1)}/${zero(date.getUTCDate())}`;
+  // } else {
+  //   console.log('2');
+  //   return `${date.getUTCFullYear()}-${zero(date.getUTCMonth() + 1)}-${zero(date.getUTCDate())}`;
+  // }
   return `${date.getUTCFullYear()}-${zero(date.getUTCMonth() + 1)}-${zero(date.getUTCDate())}`;
 }
 
