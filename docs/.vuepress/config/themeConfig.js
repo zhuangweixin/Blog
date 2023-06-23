@@ -28,8 +28,8 @@ module.exports = {
   //   'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175846.jpeg'
   // ], // body背景大图，默认无。 单张图片 String || 多张图片 Array, 多张图片时每隔15秒换一张。
   // bodyBgImgOpacity: 0.5, // body背景图透明度，选值 0 ~ 1.0, 默认0.5
-	// bodyBgImg: '/img/bigbg3.jpg',  // 你的图片路径(必须位于 public 下)，可以是 URL
-	bodyBgImg: 'https://s3.bmp.ovh/imgs/2022/01/0413cc94cd67dca1.jpg',  // 你的图片路径(必须位于 public 下)，可以是 URL
+	bodyBgImg: '/img/jiyuanmei-15.png',  // 你的图片路径(必须位于 public 下)，可以是 URL
+	// bodyBgImg: 'https://s3.bmp.ovh/imgs/2022/01/0413cc94cd67dca1.jpg',  // 你的图片路径(必须位于 public 下)，可以是 URL
 	bodyBgImgOpacity: 1, // body 背景图透明度，选值 0 ~ 1.0, 默认0.5
 	indexImg: {
 	  navColor: 2,    // 导航栏左侧名字、中间搜索框、右侧字体的颜色，1 是黑色，2 是白色。默认是 1
