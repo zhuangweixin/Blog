@@ -67,11 +67,11 @@
 
 当我们还在页面A的时候，页面B还没生成，也就是页面B中的 created中所监听的来自于A中的事件还没有被触发。这个时候当你A中emit事件的时候，B其实是没有监听到的。
 
-> 旧组件(mounted) —>新组建(beforecreate—>created—>beforemount) —>旧组件销毁(beforeDestroy—>destroyed)—>新组件(mounted)
+> 旧页面(mounted) —>新页面(beforecreate—>created—>beforemount) —>旧页面销毁(beforeDestroy—>destroyed)—>新页面(mounted)
 
 #### 解决办法
 
-我们可以把A页面组件中的emit事件写在beforeDestory中去。因为这个时候，B页面组件已经被created了，也就是我们写的on事件已经触发了，所以可以在beforeDestory的时候， on事件已经触发了，所以可以在beforeDestory的时候，on事件已经触发了，所以可以在beforeDestory的时候，emit事件
+我们可以把A页面组件中的emit事件写在beforeDestory中去。因为这个时候，B页面组件已经被created了，也就是我们写的on事件已经触发了，所以可以在beforeDestory的时候，on事件已经触发了，所以可以在beforeDestory的时候，emit事件
 
 ````js
 //A页面
